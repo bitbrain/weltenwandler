@@ -33,9 +33,9 @@ $width:85%;
 $borderRadius:15px;
 
 // Link color
-$linkColor:#00b4ff;
+$linkColor:#00ff72;
 
-$captionColor:#ff7800;
+$captionColor:#e3ff82;
 
 // 1. Imports
 // --------------------------------------------------
@@ -135,8 +135,8 @@ a {
 
 		&.current {
 
-			border-left:1px solid #000214;
-			border-right:1px solid #000214;
+			border-left:1px solid #001408;
+			border-right:1px solid #001408;
 			a:hover {
 				cursor: default;
 			}
@@ -146,7 +146,7 @@ a {
 			background-size: 100% 100%;
 
 			a, a:hover {
-				color:#ff7800;
+				color:#e3ff82;
 				text-shadow:0px 0px 10px #ff4e00;
 				background-image:none;
 			}
@@ -178,8 +178,8 @@ a {
 
 		a:hover {
 			text-decoration: none;
-			color:#00ccff;
-			text-shadow:0px 0px 7px #0000ff;
+			color:#00ff7e;
+			text-shadow:0px 0px 7px #e3ff82;
 			background-image:url('/img/menu_hover_lighted.png');
 			background-repeat:no-repeat;
 			background-size: 100% 100%;
@@ -189,7 +189,7 @@ a {
 
 .countdown {
 	font-size:20px;
-	text-shadow:0px 0px 10px #0000ff;
+	text-shadow:0px 0px 10px #00ff42;
 	color:#00c0ff;
 	box-shadow:0px 1px 8px black;
 	background-color:black;
@@ -354,7 +354,7 @@ select {
 			color:$linkColor;
 			font-size:34px;
 			margin-bottom:20px;
-			text-shadow:0px 0px 6px #0000ff;
+			text-shadow:0px 0px 6px #00ff42;
 		}
 
 		ul {
@@ -389,7 +389,7 @@ select {
 
 	.info {
 		font-size:16px;
-		color:#444;
+		color:$captionColor;
 		margin-bottom:7px;
 
 		a {
@@ -398,7 +398,7 @@ select {
 
 		a:hover {
 			color:#90ff00;
-			text-shadow:0px 0px 3px #0000ff;
+			text-shadow:0px 0px 3px #00ff42;
 		}
 	}
 }
@@ -537,7 +537,7 @@ a {
    }
 
    .head {
-   	  color:#444;
+   	  color:$captionColor;
    	  background-image:url('/img/transparent.png');
 	  background-repeat:repeat;
    }
@@ -551,7 +551,7 @@ a {
 a:hover {
 	text-decoration: none;
 	color:#00baff;
-	text-shadow:0px 0px 7px #0000ff;
+	text-shadow:0px 0px 7px #00ff42;
 }
 
 .message {
@@ -636,7 +636,6 @@ a:hover {
 		background-image:url('/img/transparent.png');
 		background-repeat:repeat;
 		display:block;
-		width:100%;
 		border-bottom-left-radius: $borderRadius;
 		border-bottom-right-radius: $borderRadius;
 		padding:20px;
