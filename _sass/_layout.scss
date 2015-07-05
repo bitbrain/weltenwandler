@@ -14,6 +14,15 @@ Contents
 
 */
 
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
 // 1. Variables
 // --------------------------------------------------
 
@@ -35,7 +44,7 @@ $captionColor:#ff7800;
 // --------------------------------------------------
 
 // newtrients light theme
-// 
+//
 // Author: Miguel Gonzalez <miguel-gonzalez@gmx.de>
 // Since: 1.0
 // Version: 1.0
@@ -66,39 +75,39 @@ $captionColor:#ff7800;
 	}
 }
 
-.panel_green {	
+.panel_green {
 	color:white;
 	@include gradient(#56A114, #427313, #2E4D00, #8bbc2c);
 	&:hover {
 		@include gradient(#509113, #3A6311, #223800, #8bbc2c);
-		cursor:pointer;		
-		text-decoration:none;	
+		cursor:pointer;
+		text-decoration:none;
 	}
 }
 
-.panel_blue {	
+.panel_blue {
 	color:white;
 	@include gradient(#157ac8, #0b5791, #003661, #1795d7);
 	&:hover {
 		@include gradient(#136cb1, #0a4776, #003661, #1795d7);
-		cursor:pointer;		
-		text-decoration:none;		
+		cursor:pointer;
+		text-decoration:none;
 	}
 }
 
-.panel_facebook {	
+.panel_facebook {
 	color:white;
 	@include gradient(#5775ba, #4c66a4, #2c3855, #6b8ad0);
 	&:hover {
 		@include gradient(#4f6aa6, #405587, #232d44, #5c75ae);
-		cursor:pointer;		
-		text-decoration:none;		
+		cursor:pointer;
+		text-decoration:none;
 		color:white;
 	}
 }
 
 .panel_red {
-	color:white;	
+	color:white;
 	@include gradient(#de2121, #b31d1d, #9a1919, #ff5a5a);
 	&:hover {
 		@include gradient(#cb1d1d, #b31d1d, #9a1919, #ff5a5a);
@@ -112,9 +121,9 @@ a {
 	text-decoration:none;
 }
 
-.menu {	
+.menu {
 
-	ul {		
+	ul {
 		text-align:left;
 		margin:auto;
 		padding:0px;
@@ -223,7 +232,7 @@ a {
 				padding-bottom:5px;
 				border-radius:5px;
 				padding-left: 13px !important;
-				
+
 				&:hover {
 					background-image:url('/img/transparent.png');
 					background-repeat:repeat;
@@ -256,8 +265,8 @@ input, textarea, select {
 	color:white !important;
 }
 
-textarea { 
-    resize: none; 
+textarea {
+    resize: none;
 }
 
 select {
@@ -274,11 +283,11 @@ input::-webkit-inner-spin-button {
     margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
 
-input[type="text"], 
-input[type="number"], 
-input[type="email"], 
-input[type="password"], 
-textarea, 
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+textarea,
 .customSelect,
 select {
 	display: inline-block;
@@ -319,7 +328,7 @@ select {
 	display:block;
 	margin:0px !important;
 	text-align:right;
-	
+
 	.rightfloater {
 		display:inline-block;
 	}
@@ -563,7 +572,7 @@ a:hover {
 	background-repeat:repeat-x;
 	min-height:500px;
 	width:100%;
-	text-align: center;	
+	text-align: center;
 	padding-bottom:50px;
 }
 
@@ -600,7 +609,7 @@ a:hover {
 		background-color:black;
 		background-image:url('/img/menu.png');
 		background-repeat:no-repeat;
-		background-size: 100% 80px;	
+		background-size: 100% 80px;
 		border-top-left-radius: $borderRadius;
 		border-top-right-radius: $borderRadius;
 	}
@@ -651,7 +660,7 @@ a:hover {
 				text-decoration: underline;
 			}
 		}
-	
+
 	}
 }
 
@@ -732,27 +741,27 @@ background-image: linear-gradient(to bottom, #D49217 0%, #AB491B 100%);
 // --------------------------------------------------
 
 .engineer, .engineer a {
-	
+
 }
 
 .warrior, .warrior a {
-	
+
 }
 
 .spellsinger, .spellsinger a {
-	
+
 }
 
 .medic, .medic a {
-	
+
 }
 
 .stalker, .stalker a {
-	
+
 }
 
 .esper, .esper a {
-	
+
 }
 
 .high {
@@ -925,7 +934,7 @@ background-image: linear-gradient(to bottom, #D49217 0%, #AB491B 100%);
 		width:600px;
 		height:208px;
 		background-size: 70% 70%;
-		background-position: center center;
+		background-position: top center;
 	}
 }
 
@@ -934,6 +943,6 @@ background-image: linear-gradient(to bottom, #D49217 0%, #AB491B 100%);
 	background-image:url('/img/loading-big.gif');
 	background-repeat:no-repeat;
 	background-position: center center;
-	background-color:black;	
+	background-color:black;
 	margin-bottom:45px !important;
 }
