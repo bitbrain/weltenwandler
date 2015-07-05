@@ -1,0 +1,17 @@
+<!-- Contains menu code -->
+<div class="menu">
+<ul>
+{% for link in site.navigation %}
+       {% assign current = link.url|append:"index.html" %}
+       <li{% if page.url == current %}
+       class="current"
+       {% endif %}><a href="{{link.url}}"
+       {% if link.target != null %}
+        target="{{link.target}}"
+       {% endif %}>
+       {% if link.icon != null %}
+          <i class="fa {{ link.icon }}"></i>
+       {% endif %}{{link.text}}</a></li>
+{% endfor %}
+</ul>
+</div>

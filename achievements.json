@@ -1,0 +1,59 @@
+{
+	"achievements" : [
+
+		{
+			"name" : "Level 50 Dominion",
+			"description" : "Erreiche als erster Dominion-Spieler die Stufe 50",
+			"image" : "/img/achievements/level50.jpg",
+			"server" : "Progenitor",
+			"author" : "Puldus",
+			"url" : "http://localhost:4000/img/data/puldus-server-first.jpg",
+			"date" : "2014-06-02",
+			"type" : "Realm First"
+		},
+
+		{
+			"name" : "Level 50 Arkanschütze",
+			"description" : "Erreiche als erster Arkanschütze die Stufe 50",
+			"image" : "/img/achievements/level50.jpg",
+			"server" : "Progenitor",
+			"author" : "Puldus",
+			"url" : "http://localhost:4000/img/data/puldus-server-first.jpg",
+			"date" : "2014-06-02",
+			"type" : "Realm First"
+		},
+
+		{
+			"name" : "Level 50 Techpionier",
+			"description" : "Erreiche als erster Techpionier die Stufe 50",
+			"image" : "/img/achievements/level50.jpg",
+			"server" : "Progenitor",
+			"author" : "Skatefanatic",
+			"url" : "http://localhost:4000/img/data/skatefanatic-server-first.jpg",
+			"date" : "2014-06-03",
+			"type" : "Realm First"
+		},
+
+		{
+			"name" : "War of the Wilds",
+			"description" : "Erlange als erster Gold in 'Krieg in der Wildnis'",
+			"image" : "/img/achievements/wotw.jpg",
+			"server" : "Progenitor",
+			"author" : "Brutal Dedication",
+			"url" : "http://localhost:4000/img/data/first-war-of-the-wilds.jpg",
+			"date" : "2014-06-04",
+			"type" : "Realm First"
+		},
+
+		{
+			"name" : "The Siege of Tempest Refuge",
+			"description" : "Erlange als erster Gold in 'The Siege of Tempest Refuge'",
+			"image" : "/img/achievements/tempest.png",
+			"server" : "Progenitor",
+			"author" : "Brutal Dedication",
+			"url" : "https://i.imgur.com/uo9Gujc.jpg",
+			"date" : "2014-06-05",
+			"type" : "Realm First"
+		}
+	]
+}

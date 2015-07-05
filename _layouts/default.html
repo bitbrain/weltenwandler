@@ -1,20 +1,93 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Brutal Dedication - We LIVE Wildstar</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- responsive site -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <!-- chrome frame -->
+		<meta name="viewport" content="user-scalable=no"> <!-- prevents browser zoom on small devices -->
+		<link rel="author" href="humans.txt">
+		<meta name="description" content="Description Goes Here">
+		<link rel="stylesheet" href="/css/main.css">	
+	    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
-  {% include head.html %}
+		<!-- Icon -->
+		<link rel="shortcut icon" href="/ico/favicon.png">
 
-  <body>
+		<link rel="stylesheet" href="/css/craftyslide.css" />
+		<link rel="stylesheet" href="/css/tipsy.css" />
 
-    {% include header.html %}
+		<link rel="stylesheet" href="/css/lightbox.css">
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+		<!-- Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Exo+2:400,700' rel='stylesheet' type='text/css'>
 
-    {% include footer.html %}
+		<link rel="stylesheet" href="/css/font-awesome.min.css">
 
-  </body>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>if (!window.jQuery) {document.write('<script src="/js/jquery.min.js"><\/script>');}</script>
+		<script src="/js/jquery.tipsy.js"></script>
+		<script src="/js/jquery.members.js"></script>
+		<script src="/js/jquery.ice.js"></script>
+		<script src="/js/jquery.recrutement.js"></script>
+		<script src="/js/jquery.achievements.js"></script>
+		<script src="/js/jquery.validate.min.js"></script>
+		<script src="/js/additional-methods.min.js"></script>
+		<script src="/js/jquery.twttrfy.js"></script>
+		<script src="/js/lightbox.min.js"></script>
+	</head>
+	<body>
 
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-50542604-1', 'brutal-dedication.de');
+	  ga('send', 'pageview');
+
+	</script>
+
+
+	<div class="background_bottom">
+	    <div class="wrapper">
+
+	        <a href="/"><div class="header"></div></a>
+
+	        <!--<a class="countdown" href="http://www.wildstar-online.com/de/news/wildstar_release_date_and_nda_lift.php"></a>-->
+	        <div class="box">
+	        	{% include menu.html %}
+
+	        	<div class="content table">
+
+		        	<div class="row"><div class="left cell">
+		        	<div class="messages"></div>
+					{{ content }}
+					</div>
+					<div class="right cell">
+						<!-- Right content goes here -->
+
+						<h2>Wir suchen:</h2>
+
+	        			{% include classes.html %}
+
+	        			<a class="button_green apply" href="/apply#paragraph">Jetzt bewerben</a>
+
+	        			{% include postlist.html %}
+					</div></div>
+
+
+				</div>
+				<div class="footer">
+						<!-- Footer content goes here -->
+						{% include footer.html %}
+					</div>
+			</div>
+
+		</div></div>
+
+		<script src="/js/craftyslide.min.js"></script>
+		<script src="/js/custom.js"></script>
+	</body>
 </html>
