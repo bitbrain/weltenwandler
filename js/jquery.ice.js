@@ -85,9 +85,9 @@
             			particle.y -= delta * this.startVelocity * Math.random();
             			if (this.life < 3000) {
             				if (particle.a < this.maxOpacity) {
-            				
+
             					particle.a += this.opacityFactor;
-            				} 
+            				}
             			} else {
             				particle.a -= this.opacityFactor;
             				if (particle.a < 0) {
@@ -128,7 +128,7 @@
             	if (Math.random() < 0.4) {
             		size = Math.random() * 2 + 1;
             	}
-            	particles[i] = new Particle(0, 0, 20, 150, 255, size);
+            	particles[i] = new Particle(0, 0, 0, 255, 114, size);
             	var behavior = new ParticleBehavior(particles[i]);
             	particles[i].behavior = behavior;
             	realignParticle(particles[i]);
@@ -137,10 +137,10 @@
             var renderingLoop = function () {
 
 	            lastTime = currentTime;
-	            currentTime = +new Date();       
+	            currentTime = +new Date();
 	            delta = currentTime - lastTime;
 
-	            context.clearRect(0, 0, canvas.width, canvas.height); 
+	            context.clearRect(0, 0, canvas.width, canvas.height);
 
 	            for (var i = 0; i < particles.length; ++i) {
 	            	particles[i].update(delta);
